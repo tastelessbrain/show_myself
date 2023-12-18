@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "http://{tastelessbrain}.github.io/{sow_myself}",
+  "homepage": "http://tastelessbrain.github.io/show_myself",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://{tastelessbrain}.github.io/{show_myself}'",
+    "build-gh": "parcel build --public-url 'https://tastelessbrain.github.io/show_myself'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
